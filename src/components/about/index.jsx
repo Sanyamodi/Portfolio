@@ -1,6 +1,7 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
+import Image from "next/image";
 
 const AboutDetails = () => {
   return (
@@ -15,7 +16,7 @@ const AboutDetails = () => {
             Developer in the Making
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base lg:text-xl  ">
-            I'm a motivated and detail-oriented individual with a strong inclination toward problem-solving and building efficient, meaningful solutions. Whether working on individual projects or collaborating within a team, I bring a thoughtful and structured approach to my work. I believe in consistent growth through learning and practical application, and I'm always looking for ways to challenge myself and improve. My goal is to contribute to impactful projects, keep refining my technical and analytical abilities, and grow into a reliable professional who delivers with quality and integrity. With each experience, I aim to get one step closer to making a real difference through technology.
+            I&apos;m a motivated and detail-oriented individual with a strong inclination toward problem-solving and building efficient, meaningful solutions. Whether working on individual projects or collaborating within a team, I bring a thoughtful and structured approach to my work. I believe in consistent growth through learning and practical application, and I&apos;m always looking for ways to challenge myself and improve. My goal is to contribute to impactful projects, keep refining my technical and analytical abilities, and grow into a reliable professional who delivers with quality and integrity. With each experience, I aim to get one step closer to making a real difference through technology.
           </p>
         </ItemLayout>
 
@@ -40,7 +41,7 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <img
+          <Image
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=Sanyamodi&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5b&text_bold=false"
             alt="CodeBucks"
@@ -52,7 +53,7 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <img
+          <Image
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyamodi&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5b&text_bold=false"
             alt="CodeBucks"
@@ -63,7 +64,7 @@ const AboutDetails = () => {
         {/* Skill Set */}
 
         <ItemLayout className={"col-span-full"}>
-          <img
+          <Image
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=java,aws,css,git,github,html,js,linux,mysql,nextjs,npm,react,tailwind,threejs,vercel,vite,vscode`}
             alt="CodeBucks"
@@ -74,7 +75,7 @@ const AboutDetails = () => {
 
         {/* Github Readme Streak Stats */}
         <ItemLayout className={"col-span-full md:col-span-6 !p-0 justify-center"}>
-          <a className="w-full h-auto" href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=Sanyamodi&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" loading="lazy" /></a>
+          <a className="w-full h-auto" href="https://git.io/streak-stats"><Image src="https://github-readme-streak-stats.herokuapp.com?user=Sanyamodi&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" loading="lazy" /></a>
         </ItemLayout>
 
         {/* GitHub Repo Link */}

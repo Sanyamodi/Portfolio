@@ -32,7 +32,7 @@ export default function Home() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute flex flex-col items-center text-center px-4 sm:px-0 top-1/2 sm:top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold text-4xl xs:text-lg sm:text-2xl lg:text-6xl text-accent leading-tight drop-shadow-lg">
-            Hey there, I'm Sanya
+            Hey there, I&apos;m Sanya
           </h1>
           <p className="mt-4 font-medium text-foreground text-base xs:text-sm  sm:text-lg max-w-md sm:max-w-xl leading-relaxed">
            A curious coder who loves turning ideas into real web magic

@@ -17,35 +17,42 @@ Websites:
 */
 
 export const projectsData = [
-  {
+{
     id: 1,
-    name: "TicTacToe",
-    description: "A 2-player X and O grid game",
-    // date: "2022-08-15",
-    demoLink: "http://127.0.0.1:5500/index.html",
+    name: "SlitheRush",
+    description: "Fast-paced twist on classic snake with smooth controls",
+    demoLink: "https://slithe-rush.vercel.app/",
   },
 
   {
     id: 2,
+    name: "NoteSaver",
+    description: "A simple React app to create, edit, and manage notes locally",
+    demoLink: "https://note-saver-gray.vercel.app/",
+  },
+
+  {
+    id: 3,
+    name: "PlayTicTac",
+    description: "A 2-player X and O grid game",
+    // date: "2022-08-15",
+    demoLink: "https://play-tic-tac.vercel.app/",
+  },
+
+  {
+    id: 4,
     name: "LeetCode Metric",
     description: "LeetCode progress tracker with stats",
     demoLink: "http://127.0.0.1:5500/index.html",
   },
 
   {
-    id: 3,
+    id: 5,
     name: "RazorPay Clone",
     description: "Razorpay frontend UI clone",
     demoLink: "http://127.0.0.1:5500/index.html",
   },
 
-  {
-    id: 4,
-    name: "SlitheRush",
-    description: "Fast-paced twist on classic snake with smooth controls",
-    demoLink: "http://127.0.0.1:5501/index.html",
-  },
- 
 ];
 
 export const BtnList = [

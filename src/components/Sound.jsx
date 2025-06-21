@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { Volume2, VolumeX } from "lucide-react";
+import { loadBindings } from "next/dist/build/swc";
 import React, { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
@@ -70,7 +71,7 @@ const Sound = () => {
     } else {
       setShowModal(true);
     }
-  }, []);
+  },[]);
 
   const toggle = () => {
     const newState = !isPlaying;
