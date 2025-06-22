@@ -16,7 +16,17 @@ const AboutDetails = () => {
             Developer in the Making
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base lg:text-xl  ">
-            I&apos;m a motivated and detail-oriented individual with a strong inclination toward problem-solving and building efficient, meaningful solutions. Whether working on individual projects or collaborating within a team, I bring a thoughtful and structured approach to my work. I believe in consistent growth through learning and practical application, and I&apos;m always looking for ways to challenge myself and improve. My goal is to contribute to impactful projects, keep refining my technical and analytical abilities, and grow into a reliable professional who delivers with quality and integrity. With each experience, I aim to get one step closer to making a real difference through technology.
+            I&apos;m a motivated and detail-oriented individual with a strong
+            inclination toward problem-solving and building efficient,
+            meaningful solutions. Whether working on individual projects or
+            collaborating within a team, I bring a thoughtful and structured
+            approach to my work. I believe in consistent growth through learning
+            and practical application, and I&apos;m always looking for ways to
+            challenge myself and improve. My goal is to contribute to impactful
+            projects, keep refining my technical and analytical abilities, and
+            grow into a reliable professional who delivers with quality and
+            integrity. With each experience, I aim to get one step closer to
+            making a real difference through technology.
           </p>
         </ItemLayout>
 
@@ -72,12 +82,16 @@ const AboutDetails = () => {
           />
         </ItemLayout>
 
-
         {/* Github Readme Streak Stats */}
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0 justify-center"}>
-          
-          <img className="w-full h-auto"
-          src="https://streak-stats.demolab.com/?user=Sanyamodi&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" loading="lazy" />
+        <ItemLayout
+          className={"col-span-full md:col-span-6 !p-0 justify-center"}
+        >
+          <img
+            className="w-full h-auto"
+            src="https://streak-stats.demolab.com/?user=Sanyamodi&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B"
+            alt="GitHub Streak"
+            loading="lazy"
+          />
         </ItemLayout>
 
         {/* GitHub Repo Link */}
@@ -95,7 +109,6 @@ const AboutDetails = () => {
             />
           </Link>
         </ItemLayout> */}
-
       </div>
     </section>
   );
