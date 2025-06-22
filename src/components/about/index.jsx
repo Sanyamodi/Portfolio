@@ -1,7 +1,7 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 const AboutDetails = () => {
   return (
@@ -41,10 +41,10 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <Image
+          <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api?username=Sanyamodi&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5b&text_bold=false"
-            alt="CodeBucks"
+            alt="GitHub Stats"
             loading="lazy"
           />
         </ItemLayout>
@@ -53,10 +53,10 @@ const AboutDetails = () => {
         <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
-          <Image
+          <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanyamodi&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5b&text_bold=false"
-            alt="CodeBucks"
+            alt="Popular Languages"
             loading="lazy"
           />
         </ItemLayout>
@@ -64,10 +64,10 @@ const AboutDetails = () => {
         {/* Skill Set */}
 
         <ItemLayout className={"col-span-full"}>
-          <Image
+          <img
             className="w-full h-auto"
             src={`https://skillicons.dev/icons?i=java,aws,css,git,github,html,js,linux,mysql,nextjs,npm,react,tailwind,threejs,vercel,vite,vscode`}
-            alt="CodeBucks"
+            alt="Skill Set"
             loading="lazy"
           />
         </ItemLayout>
@@ -75,7 +75,9 @@ const AboutDetails = () => {
 
         {/* Github Readme Streak Stats */}
         <ItemLayout className={"col-span-full md:col-span-6 !p-0 justify-center"}>
-          <a className="w-full h-auto" href="https://git.io/streak-stats"><Image src="https://github-readme-streak-stats.herokuapp.com?user=Sanyamodi&theme=dark&hide_border=true&type=png&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" loading="lazy" /></a>
+          
+          <img className="w-full h-auto"
+          src="https://streak-stats.demolab.com/?user=Sanyamodi&theme=dark&hide_border=true&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B" alt="GitHub Streak" loading="lazy" />
         </ItemLayout>
 
         {/* GitHub Repo Link */}
