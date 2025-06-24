@@ -39,19 +39,19 @@ export const projectsData = [
     demoLink: "https://play-tic-tac.vercel.app/",
   },
 
-  {
-    id: 4,
-    name: "LeetCode Metric",
-    description: "LeetCode progress tracker with stats",
-    demoLink: "http://127.0.0.1:5500/index.html",
-  },
+  // {
+  //   id: 4,
+  //   name: "LeetCode Metric",
+  //   description: "LeetCode progress tracker with stats",
+  //   demoLink: "http://127.0.0.1:5500/index.html",
+  // },
 
-  {
-    id: 5,
-    name: "RazorPay Clone",
-    description: "Razorpay frontend UI clone",
-    demoLink: "http://127.0.0.1:5500/index.html",
-  },
+  // {
+  //   id: 5,
+  //   name: "RazorPay Clone",
+  //   description: "Razorpay frontend UI clone",
+  //   demoLink: "http://127.0.0.1:5500/index.html",
+  // },
 
 ];
 
