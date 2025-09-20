@@ -61,7 +61,7 @@ export const projectsData = [
   // },
 
   {
-    id: 5,
+    id: 6,
     name: "RazorPay Clone",
     description: "Razorpay frontend UI clone",
     demoLink: "http://127.0.0.1:5500/index.html",
