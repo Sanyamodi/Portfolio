@@ -19,20 +19,34 @@ Websites:
 export const projectsData = [
 {
     id: 1,
+    name: "Arogya-Sakhi-Bot",
+    description: "A health assistant bot for personalized health advice",
+    demoLink: "https://t.me/Arogya_Sakhi_bot",
+  },
+
+  {
+    id: 2,
+    name: "UploadSphere",
+    description: "A file upload and management platform",
+    demoLink: "https://upload-sphere-cloud-storage.vercel.app/",
+  },
+
+  {
+    id: 3,
     name: "SlitheRush",
     description: "Fast-paced twist on classic snake with smooth controls",
     demoLink: "https://slithe-rush.vercel.app/",
   },
 
   {
-    id: 2,
+    id: 4,
     name: "NoteSaver",
     description: "A simple React app to create, edit, and manage notes locally",
     demoLink: "https://note-saver-gray.vercel.app/",
   },
 
   {
-    id: 3,
+    id: 5,
     name: "PlayTicTac",
     description: "A 2-player X and O grid game",
     // date: "2022-08-15",
@@ -46,12 +60,12 @@ export const projectsData = [
   //   demoLink: "http://127.0.0.1:5500/index.html",
   // },
 
-  // {
-  //   id: 5,
-  //   name: "RazorPay Clone",
-  //   description: "Razorpay frontend UI clone",
-  //   demoLink: "http://127.0.0.1:5500/index.html",
-  // },
+  {
+    id: 5,
+    name: "RazorPay Clone",
+    description: "Razorpay frontend UI clone",
+    demoLink: "http://127.0.0.1:5500/index.html",
+  },
 
 ];
 
